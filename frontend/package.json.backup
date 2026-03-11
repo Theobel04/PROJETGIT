@@ -1,0 +1,51 @@
+{
+  "name": "task-manager-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "axios": "^1.6.8",
+    "web-vitals": "^3.5.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/user-event": "^14.5.2",
+    "react-scripts": "5.0.1"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.38",
+    "serialize-javascript": "^6.0.2",
+    "underscore": "^1.13.7",
+    "webpack-dev-server": "^5.2.1",
+    "jsdom": "^24.0.0",
+    "@tootallnate/once": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:ci": "CI=true react-scripts test --coverage --passWithNoTests"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001"
+}
