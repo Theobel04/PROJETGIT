@@ -4,7 +4,7 @@
 Développer une application web de gestion de tâches collaborative en appliquant tous les concepts vus en cours : VCS, Git/GitHub, workflows, tests automatisés, et CI/CD.
 
 ## Description du Projet
-Vous travaillerez en équipes de 3 personnes pour créer une application de gestion de tâches avec les fonctionnalités suivantes :
+Vous travaillerez en équipes de 3/4 personnes pour créer une application de gestion de tâches avec les fonctionnalités suivantes :
 - Création, modification et suppression de tâches
 - Attribution de tâches à des utilisateurs
 - Système de priorités et de statuts
@@ -78,6 +78,10 @@ projet-gestionnaire-taches/
 
 ## Compétences Évaluées
 
+### README
+Une rédaction claire comprenant les différentes étapes de votre travail, les analyses, les interprétations, les potentielles erreurs rencontrées et les solutions trouvées.
+Captures d'écran grandement appréciées(pas obligatoires).
+
 ### Git et Collaboration
 - Utilisation correcte des commandes Git
 - Respect du workflow choisi
@@ -94,7 +98,7 @@ projet-gestionnaire-taches/
 - Automatisation des déploiements
 - Monitoring et documentation
 
-### Innovation
+### Innovation(ici c'est facultatif)
   - Fonctionnalités bonus
   - Amélirations UX/UI
   
@@ -108,7 +112,7 @@ Mais vous pouvez les présenter dans votre documentation
 
 ## Comment lancer l'application
 
-### Terminal Backend
+### Terminal 1 Backend
 
 ```
 cd backend
@@ -116,7 +120,7 @@ npm install
 npm run dev
 ```
 
-### Terminal Frontend
+### Terminal 2 Frontend
 
 ```
 cd frontend  
