@@ -1,0 +1,28 @@
+{
+  "name": "taskmanagement",
+  "version": "1.0.0",
+  "description": "Application de gestion de tâches",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theobel04/PROJETGIT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Theobel04/PROJETGIT/issues"
+  },
+  "homepage": "https://github.com/Theobel04/PROJETGIT#readme",
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}

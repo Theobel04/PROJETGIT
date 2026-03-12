@@ -36,5 +36,19 @@
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
-  }
+  },
+  "jest": {
+  "testEnvironment": "node",
+  "rootDir": "..",
+  "testMatch": [
+    "<rootDir>/tests/unit/**/*.test.js",
+    "<rootDir>/tests/integration/**/*.test.js"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "modulePaths": [
+    "<rootDir>/backend/node_modules"
+  ]
+}
 }
