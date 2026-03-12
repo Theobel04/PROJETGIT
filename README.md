@@ -16,7 +16,7 @@ Nous avons décidé d'utiliser le GitHub Flow pour notre projet comme ça nous a
 
 Une fois une nouvelle fonctionnalité ajouté une Pull Request est ouverte sur GitHub, comme ça une autre personne peut lire le code avant de le valider.
 
-Pour la protection des branches, nous avons interdis les push direct sans Pull Request (Require a pull request before merging, dans les paramètre GITHUB). Pour toute fusion, les tests doivent réussir avant (Require status checks to pass before merging, dans les paramètres GITHUB).
+Pour la protection des branches, nous avons interdis les push direct sans Pull Request (Require a pull request before merging, dans les paramètre GITHUB). Pour toute fusion, les tests doivent réussir avant (Require status checks to pass before merging, dans les paramètres GITHUB). Après cela on supprime les branches de chacun pour avoir un repo propre.
 
 Organisation de l'équipe :
 
@@ -26,6 +26,7 @@ Organisation de l'équipe :
     - DevOps CI-CD & Tests E2E / Valentin
 
 # CI/CD et Tests E2E / Valentin
+
 Rôle
 Mise en place du pipeline CI/CD avec GitHub Actions et des tests E2E avec Selenium.
 
@@ -108,3 +109,20 @@ All files         |   57.57 |    87.69 |   76.19 |   57.57 |
   AuthContext.js  |       0 |        0 |       0 |       0 | 1-91
   TaskContext.js  |       0 |        0 |       0 |       0 | 1-109
 ------------------|---------|----------|---------|---------|-------------------
+
+## Test unitaires Back-End / Maxime 
+
+PASS  ../tests/integration/api.test.js
+ PASS  ../tests/unit/task.test.js
+-----------|---------|----------|---------|---------|--------------------------------------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+-----------|---------|----------|---------|---------|--------------------------------------------------
+All files  |   86.17 |     75.6 |   89.47 |   85.22 |
+ server.js |   86.17 |     75.6 |   89.47 |   85.22 | 50,88,99,116,128,138,155,163,180,187,207,212-213
+-----------|---------|----------|---------|---------|--------------------------------------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       20 passed, 20 total
+Snapshots:   0 total
+Time:        4.248 s
+Ran all test suites.
